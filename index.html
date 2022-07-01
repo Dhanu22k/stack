@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        border: 2px solid black;
+        width: 100%;
+        height: 50px;
+    }
+    .rightLayout{
+        border: 2px solid black;
+        width: 48%;
+        height: 500px;
+        float:right;
+        
+        
+        
+    }
+
+    .leftLayout{
+        border: 2px solid black;
+        width: 50%;
+        height:500px;
+        
+    }
+
+
+    
+
+</style>
+<script src="main.js"></script>
+<body>
+    <div class="header">
+        <p id="head"></p>
+
+    </div>
+<div class="rightLayout" id="p1">
+    <div> 
+   <p  id="stk"></p>
+   
+    </div>
+</div>
+
+<div class="leftLayout" >
+   <br> <input type="number" id="ip"><button  onclick="dis();">OK</button><br><br>
+   <input type="button" value="Push"  onclick="push()"><br><br>
+   <input type="button" value="Pop"  onclick="pop()">
+   
+    
+</div>
+
+
+    
+</body>
+</html>
